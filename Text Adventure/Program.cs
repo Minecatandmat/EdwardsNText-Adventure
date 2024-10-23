@@ -5,18 +5,23 @@
         static void Main(string[] args)
         {
             int Choice = 0;
-            if (Choice == 69)
-            {
-                Console.WriteLine("The year of the first Woodstock festival.");
-            }
-            if (Choice == 99)
-            {
-                Console.WriteLine("Woodstock 99 was fun... If you were a drunkard junkie. Look it up");
-            }
-            if (Choice == 100)
-            {
-                Console.WriteLine("Whose line is it anyways? Line 18? Ok.");
-            }
+            //string Eggs = null;
+            //if (Eggs == "BillyBob")
+            //{
+            //    billybob();
+            //}
+            //if (Eggs == "SixtyNine")
+            //{
+            //    Console.WriteLine("The year of the first Woodstock festival.");
+            //}
+            //if (Eggs == "NinerNiner")
+            //{
+            //    Console.WriteLine("Woodstock 99 was fun... If you were a drunkard junkie. Look it up");
+            //}
+            //if (Eggs == "Hundred")
+            //{
+            //    Console.WriteLine("Whose line is it anyways? Line 18? Ok.");
+            //}
             Console.WriteLine("You are a prisonor within a unknown facility belonging to a 'SCP Foundation'. All you know about them is that they contain dangerous paranormal objects and test them on people like you, Death row inmates or violent prisoners. What you were charged with and if it was correct is irrelevent. What is relevent is when the power goes out and the guards leave in a panic, your door is unlocked. As you step out, you see to the left is a door marked STORAGE and to the right is a door marked MEDICAL. Where do you go?");
             Console.WriteLine("[1: Go through STORAGE] [2: Go through MEDICAL]");
             Choice = Convert.ToInt32(Console.ReadKey().KeyChar.ToString());
@@ -67,6 +72,11 @@
                     }
                 }
             }
+        }
+
+        static void billybob()
+        {
+            Console.WriteLine("Cotton eye joe.");
         }
     }
 }
